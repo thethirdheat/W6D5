@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // IMPORT
-import Congrats from './congrats';
+import Main from './main';
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
-  ReactDOM.render(<Congrats/>, root);
+  ReactDOM.render(<Main/>, root);
 });
