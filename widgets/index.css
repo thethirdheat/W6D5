@@ -1,5 +1,7 @@
 body {
   font-family: 'Swanky and Moo Moo', cursive;
+  padding: 0px;
+  margin: 0px;
 }
 
 .clock {
@@ -12,4 +14,46 @@ body {
   padding: 5%;
   color: white;
   background: orange;
+}
+
+.samContainer {
+  width: 300px;
+  margin: 50px auto;
+  display: flex;
+  
+}
+
+.tabsContainer{
+  width: 650px;
+}
+
+.tab {
+  border: 1px solid black;
+  padding: 5px;
+  width: 33%;
+  text-align: center;
+}
+
+.tabs{
+  width: 300px;
+  display: flex;
+}
+
+.tabContentContainer{
+  box-sizing: border-box;
+  border-width: 0px 1px 1px 1px;
+  border-color: black;
+  border-style: solid;
+  height: 200px;
+}
+
+.tabContent {
+  padding: 20px;
+}
+
+.bold{
+  border-width: 1px 1px 0px 1px;
+  border-color: black;
+  border-style: solid;
+  color: red;
 }
